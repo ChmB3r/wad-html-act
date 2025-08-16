@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JR Balmaceda - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(135deg, blueviolet, #6a3093);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid blueviolet;
+        }
+
+        .profile-info h1 {
+            margin: 0;
+            color: blueviolet;
+        }
+
+        .github-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: white;
+            background-color: blueviolet;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .github-link:hover {
+            background-color: #6a3093;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: blueviolet;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th {
+            background-color: blueviolet;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .footer-gif {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hello, Nice to meet you. I'm JR C. Balmaceda, you can call me Jay in short.</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="profile-section">
+            <img src="images/ABATAR 101.png" alt="AI generated image of my FB account" class="profile-pic">
+            <div class="profile-info">
+                <h1>JR C. Balmaceda</h1>
+                <p>BSIS - 2nd Year | Student</p>
+                <a href="https://github.com/ChmB3r" class="github-link">Visit My GitHub</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I'm a second year Computer Science student at Laverda Christian College. Originally from City of Ilagan, Isabela, I currently reside in Sampaloc, Apalit Pampanga.</p>
+                <p>As the middle child in my family, I share a special bond with my twin brother RB. When I'm not coding, you can find me enjoying various hobbies.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>My Skills</h2>
+            <ol>
+                <li><strong>Python Programming</strong> - Beginner level</li>
+                <li><strong>Java Programming</strong> - Beginner level</li>
+                <li><strong>HTML/CSS</strong> - Beginner level</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Playing video games (FPS, MOBA, and rhythm games like Osu! and Geometry Dash)</li>
+                <li>Watching Anime (<a href="images/Rick Roll GIF.gif" alt="Anime Recommendations XD" target="_blank">Anime Recommendations</a>)</li>
+                <li>Reading Manga/Manhwa/Manhua/Light Novels</li>
+                <li>Playing Volleyball and other sports</li>
+                <li>Listening to J-pop and Rock music</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skill Proficiency</h2>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                    <th>Date Attained</th>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Beginner</td>
+                    <td>Last Academic Year</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                    <td>Last Academic Year</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                    <td>This Academic Year</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 JR Balmaceda. All rights reserved.</p>
+            <img src="images/Rumbling War GIF by iQiyi.gif" alt="Rumbling War" class="footer-gif">
+        </div>
+    </footer>
+</body>
+</html>
